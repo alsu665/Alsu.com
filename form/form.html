@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Ajax-форма</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<!-- <?
+$summa1 = $_POST['summa1'];
+$summa2 = $_POST['summa2'];
+$summa3 = $_POST['summa3'];
+
+ 
+?> -->
+
+
+<body>
+	<div class="container">
+		<h3 class="form__title">Ваш заказ</h3>
+		<form class="form" id="form" name="form">
+			<div class="row">
+				<div class="col-lg-3">
+					<input type="text">
+				</div>
+				<div class="col-lg-12">
+					<h4 class="form__checkout">Оформить заказ</h4>
+				</div>
+				
+			</div>
+			
+			
+		<input type="text" class="form-field" name="name" placeholder="Введите ваше имя">
+		<input type="text" class="form-field" name="lastname" placeholder="Введите вашу фамилию">
+		<input type="text" class="form-field" name="address" placeholder="Номер дома и название улицы">
+		<input type="text" class="form-field" name="phone" placeholder="Введите ваш телефон">
+		<button class="form-button"><span class="text-button">Отправить заявку</span></button>
+	</form>
+	</div>
+	
+
+	<footer>
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script src="jquery.maskedinput.js"></script>
+
+</body>
+</html>
